@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sevillana&display=swap');
+:root{
+    --cor-prima: #F4A1B8;
+    --cor-sec: #0ADAF5;
+    --cor-destaq: #753F5B;
+    --preto: #000000;
+}
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+    color: var(--cor-destaq);
+    text-align: center;
+}
+
+body{
+    background-color: var(--cor-prima);
+}
+
+.titulo{
+    text-align: center;
+    font-size: 48px;
+    margin: 40px 0 80px;
+}
+nav{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    }
+
+nav ul li{
+    margin-inline: 8px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.imagem-perfil{
+    border-radius: 50%;
+    width: 200px;
+    margin: 40px auto;
+    display: block;
+}
